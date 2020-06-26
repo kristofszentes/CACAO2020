@@ -172,9 +172,9 @@ public Filiere getFiliere(String nom) {
 
 	public void notificationFaillite(IActeur acteur) {
 		if (this==acteur) {
-		System.out.println("I'll be back... or not... "+this.getNom());
+		System.out.println("It's all Karl's fault"+this.getNom());
 		} else {
-			System.out.println("Poor "+acteur.getNom()+"... We will miss you. "+this.getNom());
+			System.out.println(" "+acteur.getNom()+"was weak. We destroyed him "+this.getNom());
 		}
 	}
 	
